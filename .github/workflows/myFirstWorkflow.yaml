@@ -7,3 +7,7 @@ jobs:
     steps:
       - name: Print Hello World
         run: echo "Hello World"
+      - name: "Add Numbers"
+        run: echo $((1+2))
+      - name: "Run JavaScript"
+        run: node hello.js
